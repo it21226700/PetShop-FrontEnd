@@ -1,0 +1,69 @@
+/* Navbar background and text colors */
+.navbar {
+    background-color: #c6e92a; /* Darker background */
+    padding: 15px 20px; /* Increase padding for larger height */
+    height: auto; /* Auto height to allow dynamic sizing */
+}
+
+.navbar .navbar-brand {
+    color: #1573d1; /* Light text for brand */
+    font-weight: bold; /* Make brand text bold */
+    font-size: 1.5rem; /* Increase font size for brand text */
+}
+
+.navbar .nav-link {
+    color: #3990e7; /* Light text for nav links */
+    transition: color 0.3s ease; /* Smooth color transition */
+    padding: 15px 20px; /* Add padding to make the navbar taller */
+    font-size: 1.1rem; /* Slightly increase font size */
+}
+
+.nav-link {
+    padding: 10px 20px; /* Adjust padding for nav links */
+}
+
+.navbar {
+    background-color: rgb(224, 170, 19); /* Background color override */
+}
+
+/* Dropdown styles */
+.nav-dropdown {
+    background-color: #495057; /* Darker background for dropdown */
+}
+
+.nav-dropdown .dropdown-item {
+    color: #267bcf; /* Light text for dropdown items */
+}
+
+/* Search form styles */
+.form-control {
+    border: 1px solid #ffc107; /* Yellow border */
+    background-color: #343a40; /* Same as navbar */
+    color: #f8f9fa; /* Light text */
+}
+
+.form-control::placeholder {
+    color: #f8f9fa; /* Light placeholder text */
+}
+
+.btn-outline-success {
+    color: #343a40; /* Dark text */
+    border-color: #ffc107; /* Yellow border */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #cfb836; /* Ensure the background is consistent */
+        padding: 12px 15px; /* Adjust padding for smaller screens */
+    }
+    
+    .navbar .nav-link {
+        padding: 10px 15px; /* Adjust padding for smaller screens */
+        font-size: 1rem; /* Adjust font size */
+    }
+    
+    .navbar .navbar-brand {
+        font-size: 1.2rem; /* Adjust brand font size */
+    }
+}
